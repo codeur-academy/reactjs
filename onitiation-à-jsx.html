@@ -5,20 +5,22 @@
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Initiation à React JS | Introduction - Initiation à React JS</title>
+        <title>Initiation à JSX | Bien démarrer - Initiation à React JS</title>
         <!-- Begin Jekyll SEO tag v2.7.1 -->
 <meta name="generator" content="Jekyll v3.9.0" />
-<meta property="og:title" content="Initiation à React JS" />
+<meta property="og:title" content="Initiation à JSX" />
 <meta property="og:locale" content="fr_FR" />
-<meta name="description" content="Apprendre à utiliser le framework React JS à partir zéro." />
-<meta property="og:description" content="Apprendre à utiliser le framework React JS à partir zéro." />
-<link rel="canonical" href="https://codeur-academy.com/reactjs/" />
-<meta property="og:url" content="https://codeur-academy.com/reactjs/" />
+<meta name="description" content="Initiation à JSX" />
+<meta property="og:description" content="Initiation à JSX" />
+<link rel="canonical" href="https://codeur-academy.com/reactjs/onitiation-%C3%A0-jsx.html" />
+<meta property="og:url" content="https://codeur-academy.com/reactjs/onitiation-%C3%A0-jsx.html" />
 <meta property="og:site_name" content="Initiation à React JS" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-09-27T20:48:56+01:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Initiation à React JS" />
+<meta property="twitter:title" content="Initiation à JSX" />
 <script type="application/ld+json">
-{"@type":"WebSite","url":"https://codeur-academy.com/reactjs/","headline":"Initiation à React JS","name":"Initiation à React JS","description":"Apprendre à utiliser le framework React JS à partir zéro.","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://codeur-academy.com/reactjs/onitiation-%C3%A0-jsx.html"},"url":"https://codeur-academy.com/reactjs/onitiation-%C3%A0-jsx.html","headline":"Initiation à JSX","dateModified":"2021-09-27T20:48:56+01:00","datePublished":"2021-09-27T20:48:56+01:00","description":"Initiation à JSX","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
         <link rel="shortcut icon" href="/reactjs/favicon.png">
@@ -201,30 +203,94 @@
     
         <div id="content" class="content">
             <main>
-                <h1 id="initiation-à-react-js">Initiation à React JS</h1>
+                <h1 id="initiation-à-jsx">Initiation à JSX</h1>
 
-<p>Bienvenue dans cette formation d’initiation à React JS</p>
+<h2 id="quest-ce-que-jsx">Qu’est ce que JSX</h2>
 
-<p>Dans cette formation, je vais vous montrer comment utiliser React pour créer des applications front-end en JavaScript.</p>
+<p>Observez cette déclaration de variable :</p>
 
-<p><img src="/reactjs/images/logo-react-js-500.png" alt="React JS" /></p>
+<div class="language-react highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">element</span> <span class="o">=</span> <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>Bonjour, monde !<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;;</span>
+</code></pre></div></div>
 
-<h2 id="ce-que-vocus-apprendrez">Ce que vocus apprendrez</h2>
+<p>Ce syntaxe qui vous fait sûrement penser à un langage de balisage n’est ni une chaîne de caractères ni du HTML.</p>
+
+<p>Ça s’appelle du JSX JSX ( JavaScript Syntax Extension) est une extension de la syntaxe du langage JavaScript qui permet de structurer le rendu des composants à l’aide d’une syntaxe familière à de nombreux développeurs. Il est similaire en apparence au HTML .</p>
+
+<h2 id="babel-js">Babel js</h2>
+
+<p>Le code écrit en JSX nécessite une conversion avec un outil tel que <strong>Babel</strong> avant de pouvoir être compris par les navigateurs Web. Ce traitement est généralement effectué au cours d’un processus de création de logiciel avant le déploiement de l’application.</p>
+
+<p><strong>Qu’est ce que Balbel ?</strong></p>
+
+<p>Babel est un transcompilateur JavaScript gratuit et open source qui est principalement utilisé pour convertir le code ECMAScript 2015+ (ES6+) en une version compatible de JavaScript pouvant être exécutée par des moteurs JavaScript plus anciens .</p>
+
+<h2 id="hello-world-avec-jsx">Hello World avec JSX</h2>
+
+<div class="language-react highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="kd">const</span> <span class="nx">element</span> <span class="o">=</span> <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>Bonjour, ESSARRAJ Fouad<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+  <span class="kd">const</span> <span class="nx">container</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="dl">"</span><span class="s2">root</span><span class="dl">"</span><span class="p">);</span>
+  <span class="nx">ReactDOM</span><span class="p">.</span><span class="nx">render</span><span class="p">(</span><span class="nx">element</span><span class="p">,</span> <span class="nx">container</span><span class="p">);</span>
+</code></pre></div></div>
+
+<p><img src="./images/bien-démarrer/hello-wolrd-avec-jsx.png" alt="Bonjour React" /></p>
+
+<h2 id="utiliser-des-expressions-dans-jsx">Utiliser des expressions dans JSX</h2>
+
+<div class="language-react highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="kd">const</span> <span class="nx">name</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">ESSARRAJ Fouad</span><span class="dl">'</span>
+  <span class="kd">const</span> <span class="nx">element</span> <span class="o">=</span> <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>Bonjour, <span class="si">{</span><span class="nx">name</span><span class="si">}</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+  <span class="kd">const</span> <span class="nx">container</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="dl">"</span><span class="s2">root</span><span class="dl">"</span><span class="p">);</span>
+  <span class="nx">ReactDOM</span><span class="p">.</span><span class="nx">render</span><span class="p">(</span><span class="nx">element</span><span class="p">,</span> <span class="nx">container</span><span class="p">);</span>
+</code></pre></div></div>
+
+<p>Après la compilation, les expressions JSX deviennent de simples appels de fonctions JavaScript, dont l’évaluation renvoie des objets JavaScript.</p>
+
+<h2 id="tp---hello-world-react-avec-jsx">TP - Hello World React avec JSX</h2>
+
+<p>Les objectif de ce TP :</p>
 
 <ul>
-  <li>Apprendre React JS à partir de zéro</li>
-  <li>Apprendre Les base de JavaScript pour commencer React</li>
-  <li>Apprendre à Utiliser les module de Node JS pour le développement d’application React.</li>
+  <li>Découvrir JSX et Babel</li>
+  <li>hello World avec JSX</li>
+  <li>utiliser des expressions dans JSX</li>
+</ul>
+
+<h3 id="code-source">Code source</h3>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span><span class="nt">&lt;html&gt;&lt;head&gt;&lt;/head&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"root"</span><span class="nt">&gt;&lt;/div&gt;</span>
+
+<span class="nt">&lt;script </span><span class="na">src=</span><span class="s">'https://unpkg.com/react/umd/react.development.js'</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;script </span><span class="na">src=</span><span class="s">'https://unpkg.com/react-dom/umd/react-dom.development.js'</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://unpkg.com/@babel/standalone/babel.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+
+<span class="nt">&lt;script </span><span class="na">type=</span><span class="s">"text/babel"</span><span class="nt">&gt;</span>
+  <span class="kd">const</span> <span class="nx">name</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">ESSARRAJ Fouad 1</span><span class="dl">'</span>
+  <span class="kd">const</span> <span class="nx">element</span> <span class="o">=</span> <span class="o">&lt;</span><span class="nx">h1</span><span class="o">&gt;</span><span class="nx">Bonjour</span><span class="p">,</span> <span class="p">{</span><span class="nx">name</span><span class="p">}</span><span class="o">&lt;</span><span class="sr">/h1</span><span class="err">&gt;
+</span>  <span class="kd">const</span> <span class="nx">container</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="dl">"</span><span class="s2">root</span><span class="dl">"</span><span class="p">);</span>
+  <span class="nx">ReactDOM</span><span class="p">.</span><span class="nx">render</span><span class="p">(</span><span class="nx">element</span><span class="p">,</span> <span class="nx">container</span><span class="p">);</span>
+<span class="nt">&lt;/script&gt;</span>
+
+<span class="nt">&lt;/body&gt;&lt;/html&gt;</span>
+</code></pre></div></div>
+<h3 id="outils">outils</h3>
+
+<ul>
+  <li><a href="https://babeljs.io/repl/#?browsers=defaults%2C%20not%20ie%2011%2C%20not%20ie_mob%2011&amp;build=&amp;builtIns=false&amp;spec=false&amp;loose=false&amp;code_lz=MYewdgzgLgBApgGzgWzmWBeGAeAFgRgD4AJRBEAGhgHcQAnBAEwEJsB6AwgbgChRJY_KAEMAlmDh0YWRiGABXVOgB0AczhQAokiVQAQgE8AkowAUAcjogQUcwEpeAJTjDgUACIB5ALLK6aRklTRBQ0KCohMQk6Bx4gA&amp;debug=false&amp;forceAllTransforms=false&amp;shippedProposals=false&amp;circleciRepo=&amp;evaluate=false&amp;fileSize=false&amp;timeTravel=false&amp;sourceType=module&amp;lineWrap=true&amp;presets=react&amp;prettier=false&amp;targets=&amp;version=7.13.10&amp;externalPlugins=">https://babeljs.io/</a></li>
 </ul>
 
             </main><nav class="nav-wrapper" aria-label="Page navigation">
-                <!-- Mobile navigation buttons --><a rel="next" href="/reactjs/Fondamentaux-de-React-JS.html" class="mobile-nav-chapters next" title="Fondamentaux de React JS" aria-label="Fondamentaux de React JS" aria-keyshortcuts="Right">
+                <!-- Mobile navigation buttons --><a rel="prev" href="/reactjs/Le-rendu-des-%C3%A9l%C3%A9ments.html" class="mobile-nav-chapters previous" title="Le rendu des éléments" aria-label="Le rendu des éléments" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a><a rel="next" href="/reactjs/5.Developer-Tools.html" class="mobile-nav-chapters next" title="Plusgin chrome - React Developer Tools" aria-label="Plusgin chrome - React Developer Tools" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a><div style="clear: both"></div>
             </nav>
         </div>
     </div>
-    <nav class="nav-wide-wrapper" aria-label="Page navigation"><a rel="next" href="/reactjs/Fondamentaux-de-React-JS.html" class="nav-chapters next" title="Fondamentaux de React JS" aria-label="Fondamentaux de React JS" aria-keyshortcuts="Right">
+    <nav class="nav-wide-wrapper" aria-label="Page navigation"><a rel="prev" href="/reactjs/Le-rendu-des-%C3%A9l%C3%A9ments.html" class="nav-chapters previous" title="Le rendu des éléments" aria-label="Le rendu des éléments" aria-keyshortcuts="Left">
+        <i class="fa fa-angle-left"></i>
+    </a><a rel="next" href="/reactjs/5.Developer-Tools.html" class="nav-chapters next" title="Plusgin chrome - React Developer Tools" aria-label="Plusgin chrome - React Developer Tools" aria-keyshortcuts="Right">
         <i class="fa fa-angle-right"></i>
     </a></nav>
 

@@ -1,0 +1,755 @@
+{
+"introduction-reactjs-html": {
+      "title": "Introduction",
+      "content"	 : "Introduction à la formation",
+      "url": "/reactjs/introduction-reactjs.html",
+      "author": "",
+      "categories": "introduction"
+    },
+"introduction-reactjs-html#plan-de-formation": {
+      "title": "Plan de formation  (Introduction)",
+      "content"	 : "Plan de formationLa formation est divisé en trois partie :  Bien démarrer avec React JS  Fondamentaux  Guide avancé",
+      "url": "/reactjs/introduction-reactjs.html#plan-de-formation",
+      "author": "",
+      "categories": "introduction"
+    },
+"introduction-reactjs-html#pré-requis": {
+      "title": "Pré-requis  (Introduction)",
+      "content"	 : "Pré-requis  Javascript ES6",
+      "url": "/reactjs/introduction-reactjs.html#pré-requis",
+      "author": "",
+      "categories": "introduction"
+    }
+,
+"installation-des-outils-reactjs-html": {
+      "title": "Installation des outils",
+      "content"	 : "Installation des outilsNous avons besoins des outils suivant :  Un navigateur web moderne comme google chrome  Un éditeur de code comme Visual Studio Code  Node JS",
+      "url": "/reactjs/installation-des-outils-reactjs.html",
+      "author": "",
+      "categories": "installation-outils-react"
+    }
+,
+"installation-google-chrome-html": {
+      "title": "Installation de google chrome",
+      "content"	 : "Installation d’un navigateur moderne",
+      "url": "/reactjs/installation-google-chrome.html",
+      "author": "",
+      "categories": "installation-outils-react"
+    },
+"installation-google-chrome-html#extrait-de-la-formation-vidéo": {
+      "title": "Extrait de la formation vidéo  (Installation de google chrome)",
+      "content"	 : "Extrait de la formation vidéo",
+      "url": "/reactjs/installation-google-chrome.html#extrait-de-la-formation-vidéo",
+      "author": "",
+      "categories": "installation-outils-react"
+    },
+"installation-google-chrome-html#installation-et-utilisation-de-chrome": {
+      "title": "Installation et utilisation de Chrome  (Installation de google chrome)",
+      "content"	 : "Installation et utilisation de ChromeIl existe plusieurs navigateur moderne que nous pouvons utiliser dans notre développement à savoir Firefox et Chrome.Je vous conseille d’utiliser Google Chrome.",
+      "url": "/reactjs/installation-google-chrome.html#installation-et-utilisation-de-chrome",
+      "author": "",
+      "categories": "installation-outils-react"
+    },
+"installation-google-chrome-html#pratique---installation-et-utilisation-de-chrome": {
+      "title": "Pratique - Installation et utilisation de Chrome  (Installation de google chrome)",
+      "content"	 : "Pratique - Installation et utilisation de ChromeLien d’installation de Google Chrome",
+      "url": "/reactjs/installation-google-chrome.html#pratique---installation-et-utilisation-de-chrome",
+      "author": "",
+      "categories": "installation-outils-react"
+    },
+"installation-google-chrome-html#références": {
+      "title": "Références  (Installation de google chrome)",
+      "content"	 : "RéférencesInstallation des outils de base",
+      "url": "/reactjs/installation-google-chrome.html#références",
+      "author": "",
+      "categories": "installation-outils-react"
+    }
+,
+"installation-et-utilisation-de-visual-studio-code-html": {
+      "title": "Éditeur de code - Visual Studio Code",
+      "content"	 : "Éditeur de code - Visual Studio CodeNous allons découvrir dans cette session de formation l’éditeur de code que nous allons utiliser durant notre formation.",
+      "url": "/reactjs/installation-et-utilisation-de-visual-studio-code.html",
+      "author": "",
+      "categories": "installation-outils-react"
+    },
+"installation-et-utilisation-de-visual-studio-code-html#extrait-de-la-formation-vidéo": {
+      "title": "Extrait de la formation vidéo  (Éditeur de code - Visual Studio Code)",
+      "content"	 : "Extrait de la formation vidéo",
+      "url": "/reactjs/installation-et-utilisation-de-visual-studio-code.html#extrait-de-la-formation-vidéo",
+      "author": "",
+      "categories": "installation-outils-react"
+    },
+"installation-et-utilisation-de-visual-studio-code-html#éditeur-de-code--visual-studio-code": {
+      "title": "Éditeur de code : Visual Studio Code  (Éditeur de code - Visual Studio Code)",
+      "content"	 : "Éditeur de code : Visual Studio CodeVous avez probablement un éditeur de texte basique sur votre ordinateur. Par défaut Windows propose Bloc-note.Pour le développement web, vous trouverez surement mieux que Bloc-note. Je vous recommande de commencer avec Visual Studio Code,  qui est un éditeur libre offrant des aperçus en direct et des conseils de code.",
+      "url": "/reactjs/installation-et-utilisation-de-visual-studio-code.html#éditeur-de-code--visual-studio-code",
+      "author": "",
+      "categories": "installation-outils-react"
+    },
+"installation-et-utilisation-de-visual-studio-code-html#pratique---téléchargement-et-installation": {
+      "title": "Pratique - Téléchargement et installation  (Éditeur de code - Visual Studio Code)",
+      "content"	 : "Pratique - Téléchargement et installation",
+      "url": "/reactjs/installation-et-utilisation-de-visual-studio-code.html#pratique---téléchargement-et-installation",
+      "author": "",
+      "categories": "installation-outils-react"
+    },
+"installation-et-utilisation-de-visual-studio-code-html#pratique---quelques-fonctionnalités-de-base": {
+      "title": "Pratique - Quelques fonctionnalités de base  (Éditeur de code - Visual Studio Code)",
+      "content"	 : "Pratique - Quelques fonctionnalités de base",
+      "url": "/reactjs/installation-et-utilisation-de-visual-studio-code.html#pratique---quelques-fonctionnalités-de-base",
+      "author": "",
+      "categories": "installation-outils-react"
+    },
+"installation-et-utilisation-de-visual-studio-code-html#références": {
+      "title": "Références  (Éditeur de code - Visual Studio Code)",
+      "content"	 : "RéférencesInstallation des outils de base",
+      "url": "/reactjs/installation-et-utilisation-de-visual-studio-code.html#références",
+      "author": "",
+      "categories": "installation-outils-react"
+    }
+,
+"installation-et-utilisation-de-visual-studio-code-html": {
+      "title": "Installation des extensions - VSCode",
+      "content"	 : "Quelques extensions à installerJe vous propose d’installer les extensions suivant :  Live server",
+      "url": "/reactjs/installation-et-utilisation-de-visual-studio-code.html",
+      "author": "",
+      "categories": "installation-outils-react"
+    }
+,
+"installation-npm-et-nodejs-html": {
+      "title": "Installation de Node JS et npm",
+      "content"	 : "Installation de Node JS et npmNous avons besoin dans notre formation l’outil npm qui nous permet d’installer les package Node JS.",
+      "url": "/reactjs/installation-npm-et-nodejs.html",
+      "author": "",
+      "categories": "installation-outils-react"
+    },
+"installation-npm-et-nodejs-html#quest-ce-que-node-js": {
+      "title": "Qu’est ce que Node JS  (Installation de Node JS et npm)",
+      "content"	 : "Qu’est ce que Node JSConcrètement, Node.js est un environnement bas niveau permettant l’exécution de JavaScript côté serveur.Node.js est utilisé notamment comme plateforme de serveur Web",
+      "url": "/reactjs/installation-npm-et-nodejs.html#quest-ce-que-node-js",
+      "author": "",
+      "categories": "installation-outils-react"
+    },
+"installation-npm-et-nodejs-html#quest-ce-que-npm": {
+      "title": "Qu’est ce que NPM  (Installation de Node JS et npm)",
+      "content"	 : "Qu’est ce que NPMnpm est le gestionnaire de paquets officiel de Node.js.Depuis la version 0.6.3 de Node.js, npm fait partie de l’environnement et est donc automatiquement installé par défaut avec node JS.npm est un registre de logiciels. Les développeurs open source utilisent npm pour partager et emprunter des packages, et de nombreuses organisations utilisent également npm pour gérer le développement privé.npm se compose de trois composants distincts :  le site Web  l’interface de ligne de commande (CLI)  le registre",
+      "url": "/reactjs/installation-npm-et-nodejs.html#quest-ce-que-npm",
+      "author": "",
+      "categories": "installation-outils-react"
+    },
+"installation-npm-et-nodejs-html#pratique---installation-de-node-js-et-npm": {
+      "title": "Pratique - installation de node JS et NPM  (Installation de Node JS et npm)",
+      "content"	 : "Pratique - installation de node JS et NPM",
+      "url": "/reactjs/installation-npm-et-nodejs.html#pratique---installation-de-node-js-et-npm",
+      "author": "",
+      "categories": "installation-outils-react"
+    },
+"installation-npm-et-nodejs-html#exemple-dutilisation-de-node-js": {
+      "title": "Exemple d’utilisation de Node JS  (Installation de Node JS et npm)",
+      "content"	 : "Exemple d’utilisation de Node JS",
+      "url": "/reactjs/installation-npm-et-nodejs.html#exemple-dutilisation-de-node-js",
+      "author": "",
+      "categories": "installation-outils-react"
+    },
+"installation-npm-et-nodejs-html#exemple-dutilisation-de-npm": {
+      "title": "Exemple d’utilisation de npm  (Installation de Node JS et npm)",
+      "content"	 : "Exemple d’utilisation de npm",
+      "url": "/reactjs/installation-npm-et-nodejs.html#exemple-dutilisation-de-npm",
+      "author": "",
+      "categories": "installation-outils-react"
+    },
+"installation-npm-et-nodejs-html#références": {
+      "title": "Références  (Installation de Node JS et npm)",
+      "content"	 : "Références  Site officiel de NPM  npm Docs",
+      "url": "/reactjs/installation-npm-et-nodejs.html#références",
+      "author": "",
+      "categories": "installation-outils-react"
+    }
+,
+"notions-pr-c3-a9liminaire-c3-a0-reactjs-html": {
+      "title": "Notions préliminaire à React JS",
+      "content"	 : "Notions préliminaire à React JSJe vous propose de faire un tous sur les notions que vous devez savoir pour bien apprendre le Framework React JSDans cette partie de formation, nous allons découvrir les notions suivant :  Interface utilisateur UI  Application one page  Différence entre bibliothèque et framework",
+      "url": "/reactjs/notions-pr%C3%A9liminaire-%C3%A0-reactjs.html",
+      "author": "",
+      "categories": "notions-préliminaire-react"
+    },
+"notions-pr-c3-a9liminaire-c3-a0-reactjs-html#outils": {
+      "title": "Outils  (Notions préliminaire à React JS)",
+      "content"	 : "Outils  webpack",
+      "url": "/reactjs/notions-pr%C3%A9liminaire-%C3%A0-reactjs.html#outils",
+      "author": "",
+      "categories": "notions-préliminaire-react"
+    }
+,
+"introduction-rappel-javascript-html": {
+      "title": "Bien démarrer avec React",
+      "content"	 : "Rappel JavascriptNotre formation d’initiation à React suppose que vous avez une certaine habitude de la programmation en langage JavaScript. Pas besoin d’être un expert, mais il est plus difficile d’apprendre à la fois React et JavaScript.Je vous recommande de parcourir cet rappel à JavaScript pour vérifier votre niveau de connaissances.Ça vous prendra pas beaucoup de temps, mais vous vous sentirez plus en confiance pour apprendre React.",
+      "url": "/reactjs/introduction-rappel-javascript.html",
+      "author": "",
+      "categories": "rappel-javascript"
+    }
+,
+"rappel-javascript-html": {
+      "title": "Rappel javascript",
+      "content"	 : "Rappel javascriptSi vous n’avez pas des base solide en JavaScript, Je vous propose de consulter le lien dans la référence, et d’essayer de refaire les exemples, notament des parties suivant :  Les nombres : Number  Les grands entiers (BigInt) : BigInt  Les chaînes de caractères : String  Les booléens : Boolean  Les fonctions : Function  Les objets : Object  Les symboles : Symbol (apparus avec la sixième édition d’ECMAScript, ES2015)Si vous sentez bien avec JavaScript, vous pouvez passer la session suivant.",
+      "url": "/reactjs/rappel-javascript.html",
+      "author": "",
+      "categories": "rappel-javascript"
+    },
+"rappel-javascript-html#références": {
+      "title": "Références  (Rappel javascript)",
+      "content"	 : "Références  ",
+      "url": "/reactjs/rappel-javascript.html#références",
+      "author": "",
+      "categories": "rappel-javascript"
+    }
+,
+"diff-c3-a9rence-entre-let-et-var-html": {
+      "title": "Différence entre let et var",
+      "content"	 : "Let et var",
+      "url": "/reactjs/diff%C3%A9rence-entre-let-et-var.html",
+      "author": "",
+      "categories": "rappel-javascript"
+    },
+"diff-c3-a9rence-entre-let-et-var-html#instruction-let": {
+      "title": "Instruction let  (Différence entre let et var)",
+      "content"	 : "Instruction letL’instruction let permet de déclarer une variable dont la portée est celle du bloc courant, éventuellement en initialisant sa valeur.Je vous propose de consulter la documentation pour plus d’information  let",
+      "url": "/reactjs/diff%C3%A9rence-entre-let-et-var.html#instruction-let",
+      "author": "",
+      "categories": "rappel-javascript"
+    },
+"diff-c3-a9rence-entre-let-et-var-html#références": {
+      "title": "Références  (Différence entre let et var)",
+      "content"	 : "Références  let  const",
+      "url": "/reactjs/diff%C3%A9rence-entre-let-et-var.html#références",
+      "author": "",
+      "categories": "rappel-javascript"
+    }
+,
+"fonctions-fl-c3-a9ch-c3-a9es-html": {
+      "title": "Bien démarrer avec React",
+      "content"	 : "",
+      "url": "/reactjs/fonctions-fl%C3%A9ch%C3%A9es.html",
+      "author": "",
+      "categories": "rappel-javascript"
+    },
+"fonctions-fl-c3-a9ch-c3-a9es-html#fonctions-fléchées": {
+      "title": "Fonctions fléchées  (Bien démarrer avec React)",
+      "content"	 : "Fonctions fléchéesUne expression de fonction fléchée (arrow function) permet d’avoir une syntaxe plus courte que les expressions de fonction.&amp;lt;div id=&quot;app&quot;&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;script&amp;gt;function fonction1 (x){    return x * x;}var fonction2 = x =&amp;gt; x * x;document.getElementById(&quot;app&quot;).append(fonction2(3));&amp;lt;/script&amp;gt;Les fonctions fléchées sont souvent anonymes et ne sont pas destinées à être utilisées pour déclarer des méthodes.Deux facteurs sont à l’origine de la conception des fonctions fléchées : une syntaxe plus courte et l’absence de this spécifique à la fonction. Sur ce dernier point, cela signifie qu’une fonction fléchée ne lie pas son propre this au sein de la fonction (il en va de même avec arguments, super ou new.target).",
+      "url": "/reactjs/fonctions-fl%C3%A9ch%C3%A9es.html#fonctions-fléchées",
+      "author": "",
+      "categories": "rappel-javascript"
+    },
+"fonctions-fl-c3-a9ch-c3-a9es-html#tp": {
+      "title": "TP  (Bien démarrer avec React)",
+      "content"	 : "TPCode source&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;    &amp;lt;title&amp;gt;Fonctions fléchées &amp;lt;/title&amp;gt;  &amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;div id=&quot;app&quot;&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;script&amp;gt;// méthode concise, retour implicitevar puissance = x =&amp;gt; x * x;// bloc classique, retour explicitevar somme = (x, y) =&amp;gt; { return x + y; }document.getElementById(&quot;app&quot;).append(puissance(3));document.getElementById(&quot;app&quot;).append(somme(3,2));&amp;lt;/script&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;",
+      "url": "/reactjs/fonctions-fl%C3%A9ch%C3%A9es.html#tp",
+      "author": "",
+      "categories": "rappel-javascript"
+    },
+"fonctions-fl-c3-a9ch-c3-a9es-html#références": {
+      "title": "Références  (Bien démarrer avec React)",
+      "content"	 : "Références-Fonctions fléchées",
+      "url": "/reactjs/fonctions-fl%C3%A9ch%C3%A9es.html#références",
+      "author": "",
+      "categories": "rappel-javascript"
+    }
+,
+"export-javascript-html": {
+      "title": "Export",
+      "content"	 : "ExportL’instruction export est utilisée lors de la création de modules JavaScript pour exporter des fonctions, des objets ou des valeurs primitives à partir du module, de sorte qu’ils puissent être utilisés par d’autres programmes grâce à l’instruction import.",
+      "url": "/reactjs/export-javascript.html",
+      "author": "",
+      "categories": "rappel-javascript"
+    },
+"export-javascript-html#tp---exemple-dun-module-javascript": {
+      "title": "TP - Exemple d’un module JavaScript  (Export)",
+      "content"	 : "TP - Exemple d’un module JavaScriptFichier mon-module.jsfunction somme(x,y) {    return x+y  }const message = &quot;Bonjour&quot;;export { somme, message };Fichier script.jsimport { somme, message } from &#39;./mon-module.js&#39;;console.log();    document.getElementById(&quot;app&quot;).innerHTML += somme(3,2) + &quot;&amp;lt;/br&amp;gt;&quot;;document.getElementById(&quot;app&quot;).innerHTML += message;Code HTML&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html lang=&quot;en&quot;&amp;gt;&amp;lt;head&amp;gt;    &amp;lt;script type=&quot;module&quot; src=&quot;script.js&quot;&amp;gt;&amp;lt;/script&amp;gt;    &amp;lt;title&amp;gt;JS - Export&amp;lt;/title&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;    &amp;lt;div id=&quot;app&quot;&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;",
+      "url": "/reactjs/export-javascript.html#tp---exemple-dun-module-javascript",
+      "author": "",
+      "categories": "rappel-javascript"
+    },
+"export-javascript-html#références": {
+      "title": "Références  (Export)",
+      "content"	 : "Références  export",
+      "url": "/reactjs/export-javascript.html#références",
+      "author": "",
+      "categories": "rappel-javascript"
+    }
+,
+"introduction-bien-d-c3-a9marrer-avec-react-html": {
+      "title": "Bien démarrer avec React",
+      "content"	 : "Bien démarrer avec React JSJe vous propose dans cette partie de formation de découvrir React JS et réaliser notre premirer exemple simple.Nous allons découvrir la syntaxe de JSX qui est une extension syntaxique de Javascript. Il nous facile tâche de création des interface utilisateur UI en utilisant Javascript et non HTML.L’objectif de cette partie de formation est de vous bien lancer avec React, comprendre l’utilité et comment ça marche, avant d’entrer dans les détails des fondamentaux de React JS.",
+      "url": "/reactjs/introduction-bien-d%C3%A9marrer-avec-react.html",
+      "author": "",
+      "categories": "bien-démarrer"
+    }
+,
+"quest-ce-que-reactjs-html": {
+      "title": "Qu'est ce que React JS",
+      "content"	 : "Qu’est ce que React JSReact est une bibliothèque JavaScript pour la construction d’interfaces utilisateur (UI).",
+      "url": "/reactjs/quest-ce-que-reactjs.html",
+      "author": "",
+      "categories": "bien-démarrer"
+    },
+"quest-ce-que-reactjs-html#références": {
+      "title": "Références  (Qu'est ce que React JS)",
+      "content"	 : "Références  reactjs.org  reactjs.org - Tutorial",
+      "url": "/reactjs/quest-ce-que-reactjs.html#références",
+      "author": "",
+      "categories": "bien-démarrer"
+    }
+,
+"r-c3-a9sum-c3-a9-bien-d-c3-a9marrer-avec-react-html": {
+      "title": "Résumé - Bien démarrer avec React JS",
+      "content"	 : "Résumé - Bien démarrer avec React JSAprès que nous avons découvert comment créer notre premier application react, je vous propose de faire un petit rappel de JavaScript, notament les notions que nous allons courament utiliser dans notre formation.",
+      "url": "/reactjs/r%C3%A9sum%C3%A9-bien-d%C3%A9marrer-avec-react.html",
+      "author": "",
+      "categories": "bien-démarrer"
+    }
+,
+"hello-world-reactjs-html": {
+      "title": "Hello World - React JS",
+      "content"	 : "Hello World - React JS",
+      "url": "/reactjs/hello-world-reactjs.html",
+      "author": "",
+      "categories": "bien-démarrer"
+    },
+"hello-world-reactjs-html#bonjour-react": {
+      "title": "Bonjour React  (Hello World - React JS)",
+      "content"	 : "Bonjour ReactLe plus petit exemple de React ressemble à ceci :&amp;lt;script src=&#39;react.development.js&#39;&amp;gt;&amp;lt;/script&amp;gt;&amp;lt;script src=&#39;react-dom.development.js&#39;&amp;gt;&amp;lt;/script&amp;gt;&amp;lt;div id=&quot;root&quot;&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;script&amp;gt;  const element = React.createElement(&quot;h1&quot;, null, &quot;Hello, world!&quot;);  const container = document.getElementById(&quot;root&quot;);  ReactDOM.render(element, container);&amp;lt;/script&amp;gt;Il affiche un titre qui dit « Bonjour, monde ! » sur la page.Ce code contient trois partie :  Importation de deux fichiers Javascript  : react et react-dom  Création d’un élément html avec un identifiant qui représente le conteneur de notre application React  Insertion de code React qui affiche le message bonjour dans l’élément container en utilisant la fonction render de l’objet ReactDOM.",
+      "url": "/reactjs/hello-world-reactjs.html#bonjour-react",
+      "author": "",
+      "categories": "bien-démarrer"
+    },
+"hello-world-reactjs-html#pratique---bonjour-react": {
+      "title": "Pratique - Bonjour React  (Hello World - React JS)",
+      "content"	 : "Pratique - Bonjour ReactLes objectifs de travail pratique :  Découvrir react js  création de notre premier exemple  découvert de l’objet ReactDOM  découvert de la fonction Render.Code source&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;    &amp;lt;head&amp;gt;        &amp;lt;script src=&#39;https://unpkg.com/react/umd/react.development.js&#39;&amp;gt;&amp;lt;/script&amp;gt;        &amp;lt;script src=&#39;https://unpkg.com/react-dom/umd/react-dom.development.js&#39;&amp;gt;&amp;lt;/script&amp;gt;    &amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;div id=&quot;root&quot;&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;script&amp;gt;  const element = React.createElement(&quot;h1&quot;, null, &quot;Bonjour : ESSARRAJ Fouad&quot;);  const container = document.getElementById(&quot;root&quot;);  ReactDOM.render(element, container);&amp;lt;/script&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;ExplicationAprès la structure de la page HTML (head et body). La balise div avec l’identifiant “root” est utilisé comme balise d’application React.Remarquez aussi, l’importation de deux fichiers javascript nécessaire pour le fonctionnement de react.  react.development.js  react-dom.development.jsconst element = React.createElement(&quot;h1&quot;, null, &quot;Hello, world!&quot;);const container = document.getElementById(&quot;root&quot;);ReactDOM.render(element, container);La lecture rapide ce notre exemple vous dira que nous avons utilisé :  la fonction createElement de l’objet React  la fonction render de l’objet ReactDOM.La fonction createElement permet de créer un élément html, dans notre cas nous avons créé la balise h1 qui contient le message Hello, world.La fonction render permet d’ajouter un élément html dans un autre élément. dans notre cas, nous avons ajouter la balise h1 dans la balise root.",
+      "url": "/reactjs/hello-world-reactjs.html#pratique---bonjour-react",
+      "author": "",
+      "categories": "bien-démarrer"
+    },
+"hello-world-reactjs-html#références": {
+      "title": "Références  (Hello World - React JS)",
+      "content"	 : "Références  Ajouter React à un site web",
+      "url": "/reactjs/hello-world-reactjs.html#références",
+      "author": "",
+      "categories": "bien-démarrer"
+    }
+,
+"onitiation-c3-a0-jsx-html": {
+      "title": "Initiation à JSX",
+      "content"	 : "Initiation à JSX",
+      "url": "/reactjs/onitiation-%C3%A0-jsx.html",
+      "author": "",
+      "categories": "bien-démarrer"
+    },
+"onitiation-c3-a0-jsx-html#quest-ce-que-jsx": {
+      "title": "Qu’est ce que JSX  (Initiation à JSX)",
+      "content"	 : "Qu’est ce que JSXObservez cette déclaration de variable :const element = &amp;lt;h1&amp;gt;Bonjour, monde !&amp;lt;/h1&amp;gt;;Ce syntaxe qui vous fait sûrement penser à un langage de balisage n’est ni une chaîne de caractères ni du HTML.Ça s’appelle du JSX JSX ( JavaScript Syntax Extension) est une extension de la syntaxe du langage JavaScript qui permet de structurer le rendu des composants à l’aide d’une syntaxe familière à de nombreux développeurs. Il est similaire en apparence au HTML .",
+      "url": "/reactjs/onitiation-%C3%A0-jsx.html#quest-ce-que-jsx",
+      "author": "",
+      "categories": "bien-démarrer"
+    },
+"onitiation-c3-a0-jsx-html#babel-js": {
+      "title": "Babel js  (Initiation à JSX)",
+      "content"	 : "Babel jsLe code écrit en JSX nécessite une conversion avec un outil tel que Babel avant de pouvoir être compris par les navigateurs Web. Ce traitement est généralement effectué au cours d’un processus de création de logiciel avant le déploiement de l’application.Qu’est ce que Balbel ?Babel est un transcompilateur JavaScript gratuit et open source qui est principalement utilisé pour convertir le code ECMAScript 2015+ (ES6+) en une version compatible de JavaScript pouvant être exécutée par des moteurs JavaScript plus anciens .",
+      "url": "/reactjs/onitiation-%C3%A0-jsx.html#babel-js",
+      "author": "",
+      "categories": "bien-démarrer"
+    },
+"onitiation-c3-a0-jsx-html#hello-world-avec-jsx": {
+      "title": "Hello World avec JSX  (Initiation à JSX)",
+      "content"	 : "Hello World avec JSX  const element = &amp;lt;h1&amp;gt;Bonjour, ESSARRAJ Fouad&amp;lt;/h1&amp;gt;  const container = document.getElementById(&quot;root&quot;);  ReactDOM.render(element, container);",
+      "url": "/reactjs/onitiation-%C3%A0-jsx.html#hello-world-avec-jsx",
+      "author": "",
+      "categories": "bien-démarrer"
+    },
+"onitiation-c3-a0-jsx-html#utiliser-des-expressions-dans-jsx": {
+      "title": "Utiliser des expressions dans JSX  (Initiation à JSX)",
+      "content"	 : "Utiliser des expressions dans JSX  const name = &#39;ESSARRAJ Fouad&#39;  const element = &amp;lt;h1&amp;gt;Bonjour, {name}&amp;lt;/h1&amp;gt;  const container = document.getElementById(&quot;root&quot;);  ReactDOM.render(element, container);Après la compilation, les expressions JSX deviennent de simples appels de fonctions JavaScript, dont l’évaluation renvoie des objets JavaScript.",
+      "url": "/reactjs/onitiation-%C3%A0-jsx.html#utiliser-des-expressions-dans-jsx",
+      "author": "",
+      "categories": "bien-démarrer"
+    },
+"onitiation-c3-a0-jsx-html#tp---hello-world-react-avec-jsx": {
+      "title": "TP - Hello World React avec JSX  (Initiation à JSX)",
+      "content"	 : "TP - Hello World React avec JSXLes objectif de ce TP :  Découvrir JSX et Babel  hello World avec JSX  utiliser des expressions dans JSXCode source&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;div id=&quot;root&quot;&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;script src=&#39;https://unpkg.com/react/umd/react.development.js&#39;&amp;gt;&amp;lt;/script&amp;gt;&amp;lt;script src=&#39;https://unpkg.com/react-dom/umd/react-dom.development.js&#39;&amp;gt;&amp;lt;/script&amp;gt;&amp;lt;script src=&quot;https://unpkg.com/@babel/standalone/babel.min.js&quot;&amp;gt;&amp;lt;/script&amp;gt;&amp;lt;script type=&quot;text/babel&quot;&amp;gt;  const name = &#39;ESSARRAJ Fouad 1&#39;  const element = &amp;lt;h1&amp;gt;Bonjour, {name}&amp;lt;/h1&amp;gt;  const container = document.getElementById(&quot;root&quot;);  ReactDOM.render(element, container);&amp;lt;/script&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;outils  https://babeljs.io/",
+      "url": "/reactjs/onitiation-%C3%A0-jsx.html#tp---hello-world-react-avec-jsx",
+      "author": "",
+      "categories": "bien-démarrer"
+    }
+,
+"le-rendu-des-c3-a9l-c3-a9ments-html": {
+      "title": "Le rendu des éléments",
+      "content"	 : "Le rendu des éléments",
+      "url": "/reactjs/Le-rendu-des-%C3%A9l%C3%A9ments.html",
+      "author": "",
+      "categories": "bien-démarrer"
+    },
+"le-rendu-des-c3-a9l-c3-a9ments-html#tp---le-rendu-des-éléments": {
+      "title": "TP - Le rendu des éléments  (Le rendu des éléments)",
+      "content"	 : "TP - Le rendu des élémentsCode source&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;  &amp;lt;script src=&#39;../assets/js/react.development.js&#39;&amp;gt;&amp;lt;/script&amp;gt;  &amp;lt;script src=&#39;../assets/js/react-dom.development.js&#39;&amp;gt;&amp;lt;/script&amp;gt;  &amp;lt;script src=&quot;../assets/js/babel.js&quot;&amp;gt;&amp;lt;/script&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;div id=&quot;root&quot;&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;script type=&quot;text/babel&quot;&amp;gt; function Afficher() {  const element = (    &amp;lt;div&amp;gt;      &amp;lt;h1&amp;gt;Bonjour, monde !&amp;lt;/h1&amp;gt;      &amp;lt;h2&amp;gt;Il est {new Date().toLocaleTimeString()}.&amp;lt;/h2&amp;gt;    &amp;lt;/div&amp;gt;  );  ReactDOM.render(element, document.getElementById(&#39;root&#39;));  }setInterval(Afficher, 1000);&amp;lt;/script&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;",
+      "url": "/reactjs/Le-rendu-des-%C3%A9l%C3%A9ments.html#tp---le-rendu-des-éléments",
+      "author": "",
+      "categories": "bien-démarrer"
+    },
+"le-rendu-des-c3-a9l-c3-a9ments-html#références": {
+      "title": "Références  (Le rendu des éléments)",
+      "content"	 : "Références-Le rendu des éléments",
+      "url": "/reactjs/Le-rendu-des-%C3%A9l%C3%A9ments.html#références",
+      "author": "",
+      "categories": "bien-démarrer"
+    }
+,
+"5-developer-tools-html": {
+      "title": "Plusgin chrome - React Developer Tools",
+      "content"	 : "Plusgin chrome - React Developer ToolsReact Developer Tools est une extension Chrome DevTools pour la bibliothèque open source React JavaScript. Il vous permet d’inspecter les hiérarchies de composants React dans les outils de développement Chrome.",
+      "url": "/reactjs/5.Developer-Tools.html",
+      "author": "",
+      "categories": "bien-démarrer"
+    },
+"5-developer-tools-html#installation-de-plugin": {
+      "title": "Installation de Plugin  (Plusgin chrome - React Developer Tools)",
+      "content"	 : "Installation de PluginReact Developer Tools",
+      "url": "/reactjs/5.Developer-Tools.html#installation-de-plugin",
+      "author": "",
+      "categories": "bien-démarrer"
+    },
+"5-developer-tools-html#références": {
+      "title": "Références  (Plusgin chrome - React Developer Tools)",
+      "content"	 : "Références  New React Developer Tools",
+      "url": "/reactjs/5.Developer-Tools.html#références",
+      "author": "",
+      "categories": "bien-démarrer"
+    }
+,
+"fondamentaux-de-react-js-html": {
+      "title": "Fondamentaux de React JS",
+      "content"	 : "Introduction",
+      "url": "/reactjs/Fondamentaux-de-React-JS.html",
+      "author": "",
+      "categories": "fondamentaux"
+    }
+,
+"introduction-jsx-html": {
+      "title": "Introduction à JSX",
+      "content"	 : "Introduction à JSX",
+      "url": "/reactjs/introduction-jsx.html",
+      "author": "",
+      "categories": "fondamentaux"
+    },
+"introduction-jsx-html#pourquoi-jsx-": {
+      "title": "Pourquoi JSX ?  (Introduction à JSX)",
+      "content"	 : "Pourquoi JSX ?",
+      "url": "/reactjs/introduction-jsx.html#pourquoi-jsx-",
+      "author": "",
+      "categories": "fondamentaux"
+    },
+"introduction-jsx-html#utiliser-des-expressions-dans-jsx": {
+      "title": "Utiliser des expressions dans JSX  (Introduction à JSX)",
+      "content"	 : "Utiliser des expressions dans JSX",
+      "url": "/reactjs/introduction-jsx.html#utiliser-des-expressions-dans-jsx",
+      "author": "",
+      "categories": "fondamentaux"
+    },
+"introduction-jsx-html#jsx-nest-rien-dautre-quune-expression": {
+      "title": "JSX n’est rien d’autre qu’une expression  (Introduction à JSX)",
+      "content"	 : "JSX n’est rien d’autre qu’une expression",
+      "url": "/reactjs/introduction-jsx.html#jsx-nest-rien-dautre-quune-expression",
+      "author": "",
+      "categories": "fondamentaux"
+    },
+"introduction-jsx-html#jsx-représente-des-objets": {
+      "title": "JSX représente des objets  (Introduction à JSX)",
+      "content"	 : "JSX représente des objets",
+      "url": "/reactjs/introduction-jsx.html#jsx-représente-des-objets",
+      "author": "",
+      "categories": "fondamentaux"
+    },
+"introduction-jsx-html#tp---introduction-à-jsx": {
+      "title": "TP - Introduction à JSX  (Introduction à JSX)",
+      "content"	 : "TP - Introduction à JSXCode source&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;div id=&quot;root&quot;&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;script src=&#39;https://unpkg.com/react/umd/react.development.js&#39;&amp;gt;&amp;lt;/script&amp;gt;&amp;lt;script src=&#39;https://unpkg.com/react-dom/umd/react-dom.development.js&#39;&amp;gt;&amp;lt;/script&amp;gt;&amp;lt;script src=&quot;https://unpkg.com/@babel/standalone/babel.min.js&quot;&amp;gt;&amp;lt;/script&amp;gt;&amp;lt;script type=&quot;text/babel&quot;&amp;gt;  const name = &#39;ESSARRAJ Fouad&#39;  const element = (  &amp;lt;div&amp;gt;    &amp;lt;h1&amp;gt;Bonjour {name} ! &amp;lt;/h1&amp;gt;    &amp;lt;h2&amp;gt;Content de te voir ici.&amp;lt;/h2&amp;gt;  &amp;lt;/div&amp;gt;);  const container = document.getElementById(&quot;root&quot;);  ReactDOM.render(element, container);&amp;lt;/script&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;",
+      "url": "/reactjs/introduction-jsx.html#tp---introduction-à-jsx",
+      "author": "",
+      "categories": "fondamentaux"
+    },
+"introduction-jsx-html#références": {
+      "title": "Références  (Introduction à JSX)",
+      "content"	 : "Références-Introduction à JSX",
+      "url": "/reactjs/introduction-jsx.html#références",
+      "author": "",
+      "categories": "fondamentaux"
+    }
+,
+"composants-et-props-html": {
+      "title": "Composants et props",
+      "content"	 : "Composants et props",
+      "url": "/reactjs/Composants-et-props.html",
+      "author": "",
+      "categories": "fondamentaux"
+    },
+"composants-et-props-html#composants-à-base-de-fonction": {
+      "title": "Composants à base de fonction  (Composants et props)",
+      "content"	 : "Composants à base de fonction  function Welcome(props) {    return &amp;lt;h1&amp;gt;Bonjour, {props.firstname}  {props.lastname}&amp;lt;/h1&amp;gt;;  } ReactDOM.render(&amp;lt;Welcome firstname = &quot;ESSARRAJ&quot; lastname=&quot;fouad&quot; /&amp;gt;,  document.getElementById(&#39;root&#39;));",
+      "url": "/reactjs/Composants-et-props.html#composants-à-base-de-fonction",
+      "author": "",
+      "categories": "fondamentaux"
+    },
+"composants-et-props-html#composants-à-base-de-classes": {
+      "title": "Composants à base de classes  (Composants et props)",
+      "content"	 : "Composants à base de classesclass Welcome extends React.Component {  nom;  prenom;  constructor(props) {    super(props);  }  render() {    return &amp;lt;h1&amp;gt;Bonjour, {this.nom} {this.props.name}&amp;lt;/h1&amp;gt;;  }}ReactDOM.render(&amp;lt;Welcome name = &quot;ESSARRAJ&quot;/&amp;gt;, document.getElementById(&#39;root&#39;));",
+      "url": "/reactjs/Composants-et-props.html#composants-à-base-de-classes",
+      "author": "",
+      "categories": "fondamentaux"
+    },
+"composants-et-props-html#tp---composants-et-props": {
+      "title": "TP - Composants et props  (Composants et props)",
+      "content"	 : "TP - Composants et propsLes objectif de TP :  Convertir une fonction en classeCode source&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;  &amp;lt;script src=&#39;../../assets/js/react.development.js&#39;&amp;gt;&amp;lt;/script&amp;gt;  &amp;lt;script src=&#39;../../assets/js/react-dom.development.js&#39;&amp;gt;&amp;lt;/script&amp;gt;  &amp;lt;script src=&quot;../../assets/js/babel.js&quot;&amp;gt;&amp;lt;/script&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;div id=&quot;root&quot;&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;script type=&quot;text/babel&quot;&amp;gt;function formatDate(date) {  return date.toLocaleDateString();}function Avatar(props) {  return (    &amp;lt;img      className=&quot;Avatar&quot;      src={props.user.avatarUrl}      alt={props.user.name}    /&amp;gt;  );}function UserInfo(props) {  return (    &amp;lt;div className=&quot;UserInfo&quot;&amp;gt;      &amp;lt;Avatar user={props.user} /&amp;gt;      &amp;lt;div className=&quot;UserInfo-name&quot;&amp;gt;{props.user.name}&amp;lt;/div&amp;gt;    &amp;lt;/div&amp;gt;  );}function Comment(props) {  return (    &amp;lt;div className=&quot;Comment&quot;&amp;gt;      &amp;lt;UserInfo user={props.author} /&amp;gt;      &amp;lt;div className=&quot;Comment-text&quot;&amp;gt;{props.text}&amp;lt;/div&amp;gt;      &amp;lt;div className=&quot;Comment-date&quot;&amp;gt;        {formatDate(props.date)}      &amp;lt;/div&amp;gt;    &amp;lt;/div&amp;gt;  );}const comment = {  date: new Date(),  text: &quot;J&#39;espère que vous apprécierez d&#39;apprendre React !&quot;,  author: {    name: &#39;Hello ESSARRAJ&#39;,    avatarUrl: &#39;https://s.gravatar.com/avatar/e1cd7eaea3fcf6c1e320fd9378713d4f?s=80&#39;,  },};ReactDOM.render(  &amp;lt;Comment    date={comment.date}    text={comment.text}    author={comment.author}  /&amp;gt;,  document.getElementById(&#39;root&#39;));&amp;lt;/script&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;Résultat",
+      "url": "/reactjs/Composants-et-props.html#tp---composants-et-props",
+      "author": "",
+      "categories": "fondamentaux"
+    },
+"composants-et-props-html#références": {
+      "title": "Références  (Composants et props)",
+      "content"	 : "Références-Composants et props",
+      "url": "/reactjs/Composants-et-props.html#références",
+      "author": "",
+      "categories": "fondamentaux"
+    }
+,
+"g-c3-a9rer-les-c3-a9v-c3-a9nements-html": {
+      "title": "Gérer les événements",
+      "content"	 : "Gérer les événements",
+      "url": "/reactjs/G%C3%A9rer-les-%C3%A9v%C3%A9nements.html",
+      "author": "",
+      "categories": "fondamentaux"
+    },
+"g-c3-a9rer-les-c3-a9v-c3-a9nements-html#références": {
+      "title": "Références  (Gérer les événements)",
+      "content"	 : "Références-Gérer les événements",
+      "url": "/reactjs/G%C3%A9rer-les-%C3%A9v%C3%A9nements.html#références",
+      "author": "",
+      "categories": "fondamentaux"
+    }
+,
+"c3-a9v-c3-a9nements-state-html": {
+      "title": "événements-state",
+      "content"	 : "Événements et state",
+      "url": "/reactjs/%C3%A9v%C3%A9nements-state.html",
+      "author": "",
+      "categories": "fondamentaux"
+    },
+"c3-a9v-c3-a9nements-state-html#événements": {
+      "title": "Événements  (événements-state)",
+      "content"	 : "Événements",
+      "url": "/reactjs/%C3%A9v%C3%A9nements-state.html#événements",
+      "author": "",
+      "categories": "fondamentaux"
+    },
+"c3-a9v-c3-a9nements-state-html#tp---événements": {
+      "title": "TP - Événements  (événements-state)",
+      "content"	 : "TP - ÉvénementsCode source&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;  &amp;lt;script src=&#39;../../assets/js/react.development.js&#39;&amp;gt;&amp;lt;/script&amp;gt;  &amp;lt;script src=&#39;../../assets/js/react-dom.development.js&#39;&amp;gt;&amp;lt;/script&amp;gt;  &amp;lt;script src=&quot;../../assets/js/babel.js&quot;&amp;gt;&amp;lt;/script&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;div id=&quot;root&quot;&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;script type=&quot;text/babel&quot;&amp;gt;function fonction1(){  alert(&quot;fonction1&quot;);}class App extends React.Component {  fonction2() {    let data =  this.props ;    alert(&quot;fonction2&quot;)  }  render() {    return (      &amp;lt;div&amp;gt;        &amp;lt;h1 onClick={fonction1}&amp;gt;Gestion des tâches&amp;lt;/h1&amp;gt;        &amp;lt;button onClick={this.fonction2.bind(this)}&amp;gt;            OK        &amp;lt;/button&amp;gt;      &amp;lt;/div&amp;gt;    );  }}ReactDOM.render(  &amp;lt;App /&amp;gt;,  document.getElementById(&#39;root&#39;));&amp;lt;/script&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;",
+      "url": "/reactjs/%C3%A9v%C3%A9nements-state.html#tp---événements",
+      "author": "",
+      "categories": "fondamentaux"
+    },
+"c3-a9v-c3-a9nements-state-html#state---état": {
+      "title": "State - État  (événements-state)",
+      "content"	 : "State - ÉtatTP - State&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;  &amp;lt;script src=&#39;../../assets/js/react.development.js&#39;&amp;gt;&amp;lt;/script&amp;gt;  &amp;lt;script src=&#39;../../assets/js/react-dom.development.js&#39;&amp;gt;&amp;lt;/script&amp;gt;  &amp;lt;script src=&quot;../../assets/js/babel.js&quot;&amp;gt;&amp;lt;/script&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;div id=&quot;root&quot;&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;script type=&quot;text/babel&quot;&amp;gt;class App extends React.Component {  constructor(props) {    super(props);    this.state = {      title: this.props.title    };  }  functionClick() {        // méthode 1    this.setState(      {title: this.props.title + &quot; &quot; + new Date().toLocaleTimeString()});        // méthode 2    //this.setState({message1: this.state.message1 + &quot;avec modification&quot;});    //this.setState(state =&amp;gt; ({ message1:  state.message1  + &quot; aa&quot;}));     }  render() {    return (      &amp;lt;div&amp;gt;        &amp;lt;h1 onClick={this.functionClick.bind(this)} &amp;gt;{this.state.title}&amp;lt;/h1&amp;gt;      &amp;lt;/div&amp;gt;    );  }}ReactDOM.render(  &amp;lt;App title={&quot;Gestion des produits&quot;} /&amp;gt;,  document.getElementById(&#39;root&#39;));&amp;lt;/script&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;",
+      "url": "/reactjs/%C3%A9v%C3%A9nements-state.html#state---état",
+      "author": "",
+      "categories": "fondamentaux"
+    },
+"c3-a9v-c3-a9nements-state-html#références": {
+      "title": "Références  (événements-state)",
+      "content"	 : "Références-État et cycle de vie",
+      "url": "/reactjs/%C3%A9v%C3%A9nements-state.html#références",
+      "author": "",
+      "categories": "fondamentaux"
+    }
+,
+"c3-89tat-et-cycle-de-vie-html": {
+      "title": "État et cycle de vie",
+      "content"	 : "État et cycle de vie",
+      "url": "/reactjs/%C3%89tat-et-cycle-de-vie.html",
+      "author": "",
+      "categories": "fondamentaux"
+    },
+"c3-89tat-et-cycle-de-vie-html#références": {
+      "title": "Références  (État et cycle de vie)",
+      "content"	 : "Références-État et cycle de vie",
+      "url": "/reactjs/%C3%89tat-et-cycle-de-vie.html#références",
+      "author": "",
+      "categories": "fondamentaux"
+    }
+,
+"listes-et-cl-c3-a9s-html": {
+      "title": "Listes et clés",
+      "content"	 : "",
+      "url": "/reactjs/Listes-et-cl%C3%A9s.html",
+      "author": "",
+      "categories": "fondamentaux"
+    },
+"listes-et-cl-c3-a9s-html#références": {
+      "title": "Références  (Listes et clés)",
+      "content"	 : "Références-Listes et clés",
+      "url": "/reactjs/Listes-et-cl%C3%A9s.html#références",
+      "author": "",
+      "categories": "fondamentaux"
+    }
+,
+"introduction-projet1-gestion-t-c3-a2ches-html": {
+      "title": "Projet 1 - gestion des tâches",
+      "content"	 : "Projet 1 - gestion des tâches",
+      "url": "/reactjs/introduction-projet1-gestion-t%C3%A2ches.html",
+      "author": "",
+      "categories": "projet1-gestion-tâches"
+    }
+,
+"conception-gestion-t-c3-a2ches-html": {
+      "title": "Conception - gestion des tâches",
+      "content"	 : "Conception - Gestion des tâches",
+      "url": "/reactjs/conception-gestion-t%C3%A2ches.html",
+      "author": "",
+      "categories": "projet1-gestion-tâches"
+    }
+,
+"prototype-gestion-t-c3-a2ches-html": {
+      "title": "Prototype - Gestion des tâches",
+      "content"	 : "Prototype - Gestion des tâches",
+      "url": "/reactjs/prototype-gestion-t%C3%A2ches.html",
+      "author": "",
+      "categories": "projet1-gestion-tâches"
+    }
+,
+"r-c3-a9alisation-projet1-gestion-t-c3-a2ches-html": {
+      "title": "Réalisation - gestion des tâches",
+      "content"	 : "Réalisation - Gestion des tâches",
+      "url": "/reactjs/r%C3%A9alisation-projet1-gestion-t%C3%A2ches.html",
+      "author": "",
+      "categories": "projet1-gestion-tâches"
+    }
+,
+"introduction-bo-c3-aete-c3-a0-outils-html": {
+      "title": "Boîtes à outils recommandées",
+      "content"	 : "Utilisez une boîte à outils intégrée pour la meilleure expérience utilisateur et développeur possible.",
+      "url": "/reactjs/introduction-bo%C3%AEte-%C3%A0-outils.html",
+      "author": "",
+      "categories": "boîte-à-outils"
+    },
+"introduction-bo-c3-aete-c3-a0-outils-html#vous-navez-peut-être-pas-besoin-dune-boîte-à-outils": {
+      "title": "Vous n’avez peut-être pas besoin d’une boîte à outils  (Boîtes à outils recommandées)",
+      "content"	 : "Vous n’avez peut-être pas besoin d’une boîte à outilsSi vous n’êtes pas encore à l’aise avec l’utilisation d’outils JavaScript, envisagez d’ajouter React comme une simple balise &amp;lt;script&amp;gt; sur une page HTML, éventuellement avec du JSX.C’est également la façon la plus simple d’intégrer React au sein d’un site web existant. Vous pourrez toujours étendre votre outillage si ça vous semble utile !",
+      "url": "/reactjs/introduction-bo%C3%AEte-%C3%A0-outils.html#vous-navez-peut-être-pas-besoin-dune-boîte-à-outils",
+      "author": "",
+      "categories": "boîte-à-outils"
+    }
+,
+"create-react-app-html": {
+      "title": "Create React App",
+      "content"	 : "",
+      "url": "/reactjs/create-react-app.html",
+      "author": "",
+      "categories": "boîte-à-outils"
+    },
+"create-react-app-html#create-react-app": {
+      "title": "Create React App  (Create React App)",
+      "content"	 : "Create React AppCreate React App est un environnement confortable pour apprendre React, et constitue la meilleure option pour démarrer une nouvelle application web monopage en React.Il configure votre environnement de développement de façon à vous permettre d’utiliser les dernières fonctionnalités de JavaScript, propose une expérience développeur agréable et optimise votre application pour la production.Pour créer un projetnpx create-react-app mon-appcd mon-appnpm startCreate React App ne prend pas en charge la logique côté serveur ni les bases de données ; il crée simplement une chaîne de construction pour la partie frontale, de sorte que vous pouvez utiliser le serveur de votre choix. Sous le capot, il utilise Babel et webpack, mais vous n’avez pas besoin de connaître ces outils.",
+      "url": "/reactjs/create-react-app.html#create-react-app",
+      "author": "",
+      "categories": "boîte-à-outils"
+    },
+"create-react-app-html#build": {
+      "title": "Build  (Create React App)",
+      "content"	 : "BuildLorsque vous êtes prêt·e à déployer en production, exécutez npm run build pour créer une version optimisée de votre application dans le répertoire build.",
+      "url": "/reactjs/create-react-app.html#build",
+      "author": "",
+      "categories": "boîte-à-outils"
+    }
+,
+"formulaires-html": {
+      "title": "Formulaires",
+      "content"	 : "Formulaires",
+      "url": "/reactjs/Formulaires.html",
+      "author": "",
+      "categories": "techniques"
+    },
+"formulaires-html#références": {
+      "title": "Références  (Formulaires)",
+      "content"	 : "Références-Formulaires",
+      "url": "/reactjs/Formulaires.html#références",
+      "author": "",
+      "categories": "techniques"
+    }
+,
+"faire-remonter-l-c3-a9tat-html": {
+      "title": "Faire remonter l'état",
+      "content"	 : "Faire remonter l’état",
+      "url": "/reactjs/Faire-remonter-l'%C3%A9tat.html",
+      "author": "",
+      "categories": "techniques"
+    },
+"faire-remonter-l-c3-a9tat-html#références": {
+      "title": "Références  (Faire remonter l'état)",
+      "content"	 : "Références-Faire remonter l’état",
+      "url": "/reactjs/Faire-remonter-l'%C3%A9tat.html#références",
+      "author": "",
+      "categories": "techniques"
+    }
+,
+"composition-ou-h-c3-a9ritage-html": {
+      "title": "Composition ou héritage",
+      "content"	 : "Composition ou héritage ?",
+      "url": "/reactjs/Composition-ou-h%C3%A9ritage.html",
+      "author": "",
+      "categories": "techniques"
+    },
+"composition-ou-h-c3-a9ritage-html#références": {
+      "title": "Références  (Composition ou héritage)",
+      "content"	 : "Références-Composition ou héritage ?",
+      "url": "/reactjs/Composition-ou-h%C3%A9ritage.html#références",
+      "author": "",
+      "categories": "techniques"
+    }
+,
+"penser-en-react-html": {
+      "title": "Penser en React",
+      "content"	 : "Penser en React",
+      "url": "/reactjs/Penser-en-React.html",
+      "author": "",
+      "categories": "techniques"
+    },
+"penser-en-react-html#références": {
+      "title": "Références  (Penser en React)",
+      "content"	 : "Références-Penser en React",
+      "url": "/reactjs/Penser-en-React.html#références",
+      "author": "",
+      "categories": "techniques"
+    }
+,
+"affichage-conditionnel-html": {
+      "title": "Affichage conditionnel",
+      "content"	 : "",
+      "url": "/reactjs/Affichage-conditionnel.html",
+      "author": "",
+      "categories": "techniques"
+    },
+"affichage-conditionnel-html#références": {
+      "title": "Références  (Affichage conditionnel)",
+      "content"	 : "Références-Affichage conditionnel",
+      "url": "/reactjs/Affichage-conditionnel.html#références",
+      "author": "",
+      "categories": "techniques"
+    }
+,
+"hooks-html": {
+      "title": "Hooks",
+      "content"	 : "",
+      "url": "/reactjs/hooks.html",
+      "author": "",
+      "categories": "hooks"
+    }
+
+
+}
